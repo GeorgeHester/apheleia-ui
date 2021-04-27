@@ -1,0 +1,49 @@
+.aph-notification {
+    width: 100%;
+    height: fit-content;
+    margin-top: 8px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: $color-light-gray-02;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    aph-icon {
+        margin-left: 12px;
+    }
+
+    span {
+        margin: 12px;
+        font-size: 14px;
+        font-weight: 450;
+        word-break: break-all;
+    }
+}
+
+.aph-notification-error {
+    border: 2px solid $color-red-40;
+    border-left: 6px solid $color-red-40;
+
+    aph-icon {
+        fill: $color-red-40;   
+    }
+}
+
+.aph-notification-success {
+    border: 2px solid $color-green-40;
+    border-left: 6px solid $color-green-40;
+
+    aph-icon {
+        fill: $color-green-40;   
+    }
+}
+
+.aph-notification-warning {
+    border: 2px solid $color-yellow-40;
+    border-left: 6px solid $color-yellow-40;
+
+    aph-icon {
+        fill: $color-yellow-40;   
+    }
+}

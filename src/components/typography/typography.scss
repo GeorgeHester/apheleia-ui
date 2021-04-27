@@ -1,0 +1,157 @@
+.font-all {
+    font-weight: 400;
+    font-style: normal;
+    line-height: 70%;
+    white-space: nowrap;
+    margin: 0;
+    color: var(--aph-col-text-01);
+    
+    &::selection {
+        background: var(--aph-col-interactive-01);
+        color: var(--aph-col-inverse-text-01);
+    }
+}
+
+.font-10 {
+    @extend .font-all;
+
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.font-12 {
+    @extend .font-all;
+
+    font-size: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.font-14 {
+    @extend .font-all;
+
+    font-size: 14px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.font-16 {
+    @extend .font-all;
+
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.font-18 {
+    @extend .font-all;
+
+    font-size: 18px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.font-20 {
+    @extend .font-all;
+
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.font-24 {
+    @extend .font-all;
+
+    font-size: 24px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.font-28 {
+    @extend .font-all;
+
+    font-size: 28px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.font-32 {
+    @extend .font-all;
+
+    font-size: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.font-36 {
+    @extend .font-all;
+
+    font-size: 36px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.font-42 {
+    @extend .font-all;
+
+    font-size: 42px;
+    margin-top: 42px;
+    margin-bottom: 42px;
+}
+
+.font-48 {
+    @extend .font-all;
+
+    font-size: 48px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.font-54 {
+    @extend .font-all;
+
+    font-size: 54px;
+    margin-top: 54px;
+    margin-bottom: 54px;
+}
+
+.font-60 {
+    @extend .font-all;
+
+    font-size: 60px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.font-68 {
+    @extend .font-all;
+
+    font-size: 68px;
+    margin-top: 68px;
+    margin-bottom: 68px;
+}
+
+.font-76 {
+    @extend .font-all;
+
+    font-size: 76px;
+    margin-top: 76px;
+    margin-bottom: 76px;
+}
+
+.font-84 {
+    @extend .font-all;
+
+    font-size: 84px;
+    margin-top: 84px;
+    margin-bottom: 84px;
+}
+
+.font-96 {
+    @extend .font-all;
+
+    font-size: 96px;
+    margin-top: 96px;
+    margin-bottom: 96px;
+}

@@ -1,0 +1,33 @@
+.aph-btn-type-primary {
+    background-color: $color-blue-50;
+    color: $color-text-01;
+    fill: $color-icon-01;
+    border: 1px solid transparent;
+    transition: background-color 0.125s, box-shadow 0.125s;
+
+    &:hover {
+        background-color: $color-blue-60;
+        cursor: pointer;
+    }
+
+    &:active {
+        background-color: $color-blue-80;
+    }
+
+    &:focus {
+        box-shadow: inset 0 0 0 1px $color-blue-50, inset 0 0 0 2px $color-white;
+        border-color: $color-blue-50;
+    }
+
+    &:disabled {
+        background-color: $color-ui-04;
+        color: $color-text-02;
+        fill: $color-icon-02;
+        cursor: default;
+    }
+
+    .aph-btn-loader {
+        border: 2px solid $color-white;
+        border-top-color: transparent;
+    }
+}

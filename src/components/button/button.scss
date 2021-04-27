@@ -1,0 +1,131 @@
+// #region Fix button style for browsers
+
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+}
+
+// # endregion
+
+// #region Basic webcomponent css properties
+
+aph-button {
+    display: block;
+    width: fit-content;
+    height: fit-content;
+}
+
+// #endregion
+
+// #region Button class
+
+.aph-btn {
+    display: flex;
+    -webkit-appearance: none;
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 4px;
+    outline: none;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+}
+
+// #endregion
+
+// #region Button text
+
+.aph-btn-text {
+    font-family: "Roboto", sans-serif;
+    text-align: start;
+
+    //display: none;
+    display: block;
+    opacity: 0;
+
+    white-space: nowrap;
+    pointer-events: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size: 14px;
+    //line-height: 70%;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    //margin-left: 16px;
+}
+
+.aph-btn-text-active {
+    //display: block;
+    opacity: 1;
+}
+
+// #endregion
+
+// #region Button loader
+
+.aph-btn-loader {
+    //display: none;
+    display: block;
+    opacity: 0;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: aph-btn-loader-spin 1s infinite ease-in-out;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.aph-btn-loader-active {
+    //display: block;
+    opacity: 1;
+}
+
+@keyframes aph-btn-loader-spin {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+// #endregion
+
+// #region Button sizes
+
+@import "./button-size/button-size-small";
+@import "./button-size/button-size-medium";
+@import "./button-size/button-size-large";
+@import "./button-size/button-size-extralarge";
+
+// #endregion
+
+// #region Button types
+
+@import "./button-type/button-type-primary";
+@import "./button-type/button-type-secondary";
+@import "./button-type/button-type-tertiary";
+@import "./button-type/button-type-ghost";
+@import "./button-type/button-type-danger";
+@import "./button-type/button-type-gray";
+@import "./button-type/button-type-dropdown-menu-item";
+@import "./button-type/button-type-gray-hover";
+
+// #endregion

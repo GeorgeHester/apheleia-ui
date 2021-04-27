@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "module": "ES6",
+        "lib": [
+            "DOM"
+        ],
+        "allowJs": true,
+        //"checkJs": true,
+        "sourceMap": true,
+        "outDir": "./build/js/",
+        "removeComments": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+        "./src/**/*",
+        "./custom.d.ts"
+    ]
+}

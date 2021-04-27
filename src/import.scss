@@ -1,0 +1,132 @@
+// #region Import Fonts
+
+@import "./components/font/font.scss";
+
+// #endregion
+
+// #region Import Variables
+
+$color-white: #ffffff;
+$color-black: #000000;
+
+$color-ui-background: #f3f3f3;
+
+$color-ui-01: #ffffff;
+$color-ui-02: #f3f3f3;
+$color-ui-03: #e6e6e6;
+$color-ui-04: #cccccc;
+$color-ui-05: #b3b3b3;
+$color-ui-06: #999999;
+$color-ui-07: #808080;
+$color-ui-08: #666666;
+$color-ui-09: #4d4d4d;
+$color-ui-10: #333333;
+$color-ui-11: #191919;
+$color-ui-12: #000000;
+
+$color-light-gray-01: #ffffff;
+$color-light-gray-02: #f3f3f3;
+$color-light-gray-03: #e7e7e7;
+$color-light-gray-04: #dbdbdb;
+$color-light-gray-05: #cfcfcf;
+$color-light-gray-06: #c4c4c4;
+$color-light-gray-07: #b8b8b8;
+$color-light-gray-08: #acacac;
+$color-light-gray-09: #a0a0a0;
+$color-light-gray-10: #949494;
+
+$color-middle-gray: #888888;
+
+$color-dark-gray-01: #000000;
+$color-dark-gray-02: #0e0e0e;
+$color-dark-gray-03: #1b1b1b;
+$color-dark-gray-04: #292929;
+$color-dark-gray-05: #363636;
+$color-dark-gray-06: #444444;
+$color-dark-gray-07: #525252;
+$color-dark-gray-08: #5f5f5f;
+$color-dark-gray-09: #6d6d6d;
+$color-dark-gray-10: #7a7a7a;
+
+$color-text-01: #ffffff;
+$color-text-02: #808080;
+$color-text-03: #666666;
+$color-text-04: #4d4d4d;
+$color-text-05: #0d0d0d;
+
+$color-icon-01: #ffffff;
+$color-icon-02: #808080;
+$color-icon-03: #666666;
+$color-icon-04: #4d4d4d;
+$color-icon-05: #0d0d0d;
+
+$color-blue-10: #6ea2fe;
+$color-blue-20: #5693fe;
+$color-blue-30: #3e83fe;
+$color-blue-40: #2674fe;
+$color-blue-50: #0e64fe; // Middle
+$color-blue-60: #0d5ae5;
+$color-blue-70: #0b50cb;
+$color-blue-80: #0a46b2;
+$color-blue-90: #083c98;
+
+// purple 9147ff
+
+$color-red-10: #e9787e;
+$color-red-20: #e56269;
+$color-red-30: #e14b53;
+$color-red-40: #de343d;
+$color-red-50: #da1e28; // Middle
+$color-red-60: #c41b24;
+$color-red-70: #ae1820;
+$color-red-80: #99151c;
+$color-red-90: #831218;
+
+$color-yellow-10: #fee366;
+$color-yellow-20: #fede4d;
+$color-yellow-30: #fed933;
+$color-yellow-40: #fed519;
+$color-yellow-50: #fed000; // Middle
+$color-yellow-60: #e5bb00;
+$color-yellow-70: #cba600;
+$color-yellow-80: #b29200;
+$color-yellow-90: #987d00;
+
+$color-green-10: #7cc690;
+$color-green-20: #66bd7e;
+$color-green-30: #50b36b;
+$color-green-40: #3aaa59;
+$color-green-50: #24a046; // Middle
+$color-green-60: #20903f;
+$color-green-70: #1d8038;
+$color-green-80: #197031;
+$color-green-90: #16602a;
+
+$color-button-gray:  #dcdcdc;
+
+// #endregion
+
+// #region Import Components
+
+@import "./components/typography/typography.scss";
+@import "./components/icon/icon.scss";
+@import "./components/button/button.scss";
+@import "./components/table/table.scss";
+@import "./components/dropdown/dropdown.scss";
+@import "./components/input/input.scss";
+@import "./components/notificaction/notification.scss";
+
+// #endregion
+
+// #region Default Css
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: $color-ui-background;
+}
+
+// #endregion

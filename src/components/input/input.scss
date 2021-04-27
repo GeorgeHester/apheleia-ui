@@ -1,0 +1,98 @@
+aph-input {
+    display: flex;
+    position: relative;
+    width: min-content;
+    height: 32px;
+
+    aph-icon { 
+        position: absolute;
+        z-index: 1;
+        top: 50%;
+        right: 8px;
+        transform: translateY(-50%);
+    }
+}
+
+.aph-input {
+    background-color: $color-light-gray-04;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    position: relative;
+
+    padding-left: 8px;
+    padding-right: 8px;
+
+    border-radius: 4px;
+
+    outline: none;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+
+    height: 100%;
+    width: 100%;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    color: $color-dark-gray-02;
+    
+    transition: border 0.125s, background 0.125s;
+
+    cursor: text;
+
+    &:hover {
+        border-color: $color-light-gray-06;
+    }
+
+    &:focus {
+        border-color: $color-blue-50;
+        background-color: transparent;
+    }
+
+    &::placeholder {
+        color: $color-dark-gray-10;   
+    }
+
+    &:disabled {
+        background-color: $color-light-gray-05;
+        cursor: default;
+
+        &:hover {
+            border-color: transparent;
+        }
+    }
+
+
+}
+
+.aph-input-error {
+    border-color: $color-red-40;
+
+    &:hover {
+        border-color: $color-red-40;
+    }
+
+    &:focus {
+        border-color: $color-blue-40;
+        background-color: transparent;
+    }
+
+    &:disabled {
+        background-color: $color-light-gray-05;
+        border-color: transparent;
+        cursor: default;
+
+        &:hover {
+            border-color: transparent;
+        }
+    }
+}
+
+.aph-input-icon-error {
+    fill: $color-red-40;
+}

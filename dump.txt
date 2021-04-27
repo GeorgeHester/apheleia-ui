@@ -1,0 +1,938 @@
+/*
+for (let i = 0; i < apheliaFiles.length; i++) {
+    if (apheliaFiles[i].split(".")[apheliaFiles[i].split(".").length - 1] == "scss") {
+        apheliaFiles.splice(i, 1);
+        i -= 1;
+    };
+};
+*/
+//apheliaFiles.push('./src/styles.scss');
+
+
+// #endregion
+
+// region Style pseudos
+/*
+.aph-btn-type-danger:hover {
+    background-color: var(--col-button-hover);
+    box-shadow: 0px 0px 6px 4px var(--col-button-shadow);
+    cursor: pointer;
+}*/
+/*
+.aph-btn-type-danger:active {
+    background-color: var(--col-button-active);
+}*/
+/*
+.aph-btn-type-danger:focus {
+    box-shadow: inset 0 0 0 1px var(--col-button-border-focus), 
+    inset 0 0 0 2px var(--col-button-inset-focus),
+    0px 0px 6px 4px var(--col-button-shadow);
+    border-color: var(--col-button-border-focus);
+}
+*//*
+.aph-btn-type-danger:disabled {
+    background-color: var(--col-button-disabled);
+    color: var(--col-button-font-disabled);
+    fill: var(--col-button-icon-disabled);
+    box-shadow: 0px 0px 4px 2px var(--col-button-disabled-shadow);
+    cursor: default;
+}*/
+
+// #endregion
+
+// #region Misc styles
+/*
+.aph-btn-type-danger-clicked:disabled {
+    background-color: var(--col-button);
+    color: var(--col-button-font);
+    fill: var(--col-button-icon);
+    box-shadow: 0px 0px 4px 2px var(--col-button-shadow);
+    cursor: default;
+}
+
+.aph-btn-type-danger-loader {
+    border: 2px solid var(--col-button-font);
+    border-top-color: transparent;
+}
+*/
+// #endregion
+
+/*
+.aph-btn-type-danger {
+
+    // Default colors
+    --col-button: var(--aph-col-support-01);
+    --col-button-shadow: var(--aph-col-support-01-shadow);
+    --col-button-font: var(--aph-col-text-04);
+    --col-button-icon: var(--aph-col-icon-03);
+
+    // Hover colors
+    --col-button-hover: var(--aph-col-hover-danger);
+
+    // Active colors
+    --col-button-active: var(--aph-col-active-danger);
+
+    // Focus colors
+    --col-button-border-focus: var(--aph-col-focus);
+    --col-button-inset-focus: var(--aph-col-inverse-01);
+
+    // Disabled colors
+    --col-button-disabled: var(--aph-col-disabled-02);
+    --col-button-disabled-shadow: var(--aph-col-disabled-02-shadow);
+    --col-button-font-disabled: var(--aph-col-disabled-03);
+    --col-button-icon-disabled: var(--aph-col-disabled-03);
+}*/
+// #region Set colors
+
+.aph-btn-type-secondary {
+
+    // Default colors
+    --col-button: var(--aph-col-interactive-02);
+    --col-button-shadow: var(--aph-col-interactive-02-shadow);
+    --col-button-font: var(--aph-col-text-04);
+    --col-button-icon: var(--aph-col-icon-03);
+
+    // Hover colors
+    --col-button-hover: var(--aph-col-hover-secondary);
+
+    // Active colors
+    --col-button-active: var(--aph-col-active-secondary);
+
+    // Focus colors
+    --col-button-border-focus: var(--aph-col-focus);
+    --col-button-inset-focus: var(--aph-col-inverse-01);
+
+    // Disabled colors
+    --col-button-disabled: var(--aph-col-disabled-02);
+    --col-button-disabled-shadow: var(--aph-col-disabled-02-shadow);
+    --col-button-font-disabled: var(--aph-col-disabled-03);
+    --col-button-icon-disabled: var(--aph-col-disabled-03);
+}
+
+// #endregion
+
+// region Style pseudos
+/*
+.aph-btn-type-secondary:hover {
+    background-color: var(--col-button-hover);
+    box-shadow: 0px 0px 6px 4px var(--col-button-shadow);
+    cursor: pointer;
+}
+
+.aph-btn-type-secondary:active {
+    background-color: var(--col-button-active);
+}
+
+.aph-btn-type-secondary:focus {
+    box-shadow: inset 0 0 0 1px var(--col-button-border-focus), 
+    inset 0 0 0 2px var(--col-button-inset-focus), 
+    0px 0px 6px 4px var(--col-button-shadow);
+    border-color: var(--col-button-border-focus);
+}
+
+.aph-btn-type-secondary:disabled {
+    background-color: var(--col-button-disabled);
+    color: var(--col-button-font-disabled);
+    fill: var(--col-button-icon-disabled);
+    box-shadow: 0px 0px 4px 2px var(--col-button-disabled-shadow);
+    cursor: default;
+}*/
+
+// #endregion
+
+// #region Misc styles
+/*
+.aph-btn-type-secondary-clicked:disabled {
+    background-color: var(--col-button);
+    color: var(--col-button-font);
+    fill: var(--col-button-icon);
+    box-shadow: 0px 0px 4px 2px var(--col-button-shadow);
+    cursor: default;
+}
+
+.aph-btn-type-secondary-loader {
+    border: 2px solid var(--col-button-font);
+    border-top-color: transparent;
+}*/
+
+// #endregion
+// #endregion
+
+// #region Default styles
+/*
+$color-ui-01: #f5f5f5;
+$color-ui-02: #ebebeb;
+$color-ui-03: #e0e0e0;
+$color-ui-04: #d6d6d6;
+$color-ui-05: #cccccc;
+
+$color-ui-06: #333333;
+$color-ui-07: #292929;
+$color-ui-08: #1f1f1f;
+$color-ui-09: #141414;
+$color-ui-10: #0a0a0a;*/
+
+/*$color-ui-01: #f2f2f2;
+$color-ui-02: #d9d9d9;
+$color-ui-03: #c0c0c0;
+$color-ui-04: #a6a6a6;
+$color-ui-05: #8d8d8d;
+$color-ui: #8d8d8d;
+$color-ui-06: #737373;
+$color-ui-07: #5a5a5a;
+$color-ui-08: #404040;
+$color-ui-09: #262626;
+$color-ui-10: #0d0d0d;*/
+
+
+// #endregion
+
+// region Style pseudos
+/*
+.aph-btn-type-tertiary:hover {
+    background-color: var(--col-button-hover);
+    box-shadow: 0px 0px 6px 4px var(--col-button-shadow);
+    cursor: pointer;
+    color: var(--col-button-font-hover);
+    fill: var(--col-button-icon-hover);
+}
+
+.aph-btn-type-tertiary:active {
+    background-color: var(--col-button-active);
+}
+
+.aph-btn-type-tertiary:focus {
+    box-shadow: inset 0 0 0 1px var(--col-button-border-focus), inset 0 0 0 2px var(--col-button-inset-focus),
+        0px 0px 6px 4px var(--col-button-shadow);
+    border-color: var(--col-button-border-focus);
+    background-color: var(--col-button-focus);
+    color: var(--col-button-font-focus);
+    fill: var(--col-button-icon-focus);
+}
+
+.aph-btn-type-tertiary:disabled {
+    background-color: var(--col-button-disabled);
+    color: var(--col-button-font-disabled);
+    fill: var(--col-button-icon-disabled);
+    box-shadow: 0px 0px 4px 2px var(--col-button-disabled-shadow);
+    cursor: default;
+    border: 1px solid var(--col-button-border-disabled);
+}
+*/
+// #endregion
+
+// #region Misc styles
+/*
+.aph-btn-type-tertiary-clicked:disabled {
+    background-color: var(--col-button);
+    color: var(--col-button-font);
+    fill: var(--col-button-icon);
+    box-shadow: 0px 0px 4px 2px var(--col-button-shadow);
+    cursor: default;
+    border: 1px solid var(--col-button-border);
+}
+
+.aph-btn-type-tertiary-loader {
+    border: 2px solid var(--col-button-font);
+    border-top-color: transparent;
+}*/
+
+// #endregion
+// #region Set colors
+/*
+.aph-btn-type-tertiary {
+
+    // Default colors
+    --col-button: transparent;
+    --col-button-shadow: transparent;
+    --col-button-font: var(--aph-col-interactive-03);
+    --col-button-icon: var(--aph-col-interactive-03);
+    --col-button-border: var(--aph-col-interactive-03);
+
+    // Hover colors
+    --col-button-hover: var(--aph-col-hover-tertiary);
+    --col-button-font-hover: var(--aph-col-text-04);
+    --col-button-icon-hover: var(--aph-col-icon-03);
+
+    // Active colors
+    --col-button-active: var(--aph-col-active-tertiary);
+
+    // Focus colors
+    --col-button-focus: var(--aph-col-interactive-03);
+    --col-button-font-focus: var(--aph-col-text-04);
+    --col-button-icon-focus: var(--aph-col-icon-03);
+    --col-button-border-focus: var(--aph-col-focus);
+    --col-button-inset-focus: var(--aph-col-inverse-01);
+
+    // Disabled colors
+    --col-button-disabled: transparent;
+    --col-button-disabled-shadow: var(--aph-col-disabled-02-shadow);
+    --col-button-font-disabled: var(--aph-col-disabled-02);
+    --col-button-icon-disabled: var(--aph-col-disabled-02);
+    --col-button-border-disabled: var(--aph-col-disabled-02);
+}*/
+
+// #endregion
+
+// #region Default styles
+// #endregion
+
+// region Style pseudos
+/*
+.aph-btn-type-ghost:hover {
+    background-color: var(--col-button-hover);
+    cursor: pointer;
+    color: var(--col-button-font-hover);
+    fill: var(--col-button-icon-hover);
+}
+
+.aph-btn-type-ghost:active {
+    background-color: var(--col-button-active);
+}
+
+.aph-btn-type-ghost:focus {
+    box-shadow: inset 0 0 0 1px var(--col-button-border-focus);
+    border-color: var(--col-button-border-focus);
+    background-color: transparent;
+}
+
+.aph-btn-type-ghost:disabled {
+    background-color: var(--col-button-disabled);
+    color: var(--col-button-font-disabled);
+    fill: var(--col-button-icon-disabled);
+    border: 1px solid transparent;
+    cursor: default;
+}
+*/
+// #endregion
+
+// #region Misc styles
+/*
+.aph-btn-type-ghost-clicked:disabled {
+    background-color: var(--col-button);
+    color: var(--col-button-font);
+    fill: var(--col-button-icon);
+    border: 1px solid transparent;
+    cursor: default;
+}
+
+.aph-btn-type-ghost-loader {
+    border: 2px solid var(--col-button-font);
+    border-top-color: transparent;
+}
+*/
+// #endregion
+
+// #region Set colors
+/*
+.aph-btn-type-ghost {
+
+    // Default colors
+    --col-button: transparent;
+    --col-button-shadow: transparent;
+    --col-button-font: var(--aph-col-link-01);
+    --col-button-icon: var(--aph-col-link-01);
+
+    // Hover colors
+    --col-button-hover: var(--aph-col-hover-ui);
+    --col-button-font-hover: var(--aph-col-hover-primary-text);
+    --col-button-icon-hover: var(--aph-col-hover-primary-text);
+
+    // Active colors
+    --col-button-active: var(--aph-col-active-ui);
+
+    // Focus colors
+    --col-button-border-focus: var(--aph-col-focus);
+
+    // Disabled colors
+    --col-button-disabled: transparent;
+    --col-button-font-disabled: var(--aph-col-disabled-02);
+    --col-button-icon-disabled: var(--aph-col-disabled-02);
+}*/
+
+// #endregion
+
+// #region Default styles
+
+/*const apheleiaButtonData: Object = {
+    btnSizes: [
+        'extralarge',
+        'large',
+        'default',
+        'small'
+    ],
+    btnStyles: [
+        'primary',
+        'secondary',
+        'tertiary',
+        'ghost',
+        'danger'
+    ]
+};
+
+const aphButtonSizes: string[] = [
+    'extralarge',
+    'large',
+    'medium',
+    'small',
+    'custom'
+];*/
+
+/*
+enum aphButtonSizes {
+    extraLarge = 'extralarge',
+    large = 'large',
+    default = 'default',
+    small = 'small'
+}*/
+
+class ApheleiaButton extends HTMLElement {
+
+    stateClicked() {
+        //console.log(this.btnType);
+
+        //let Element: HTMLButtonElement = <HTMLButtonElement>this.children[0];
+        //Element.classList.add(`aph-btn-type-${this.btnType}-clicked`);
+        this.button.classList.add(`aph-btn-type-${this.buttonType}-clicked`);
+        this.button.disabled = true;
+        this.showLoader();
+    };
+
+    stateReset() {
+        /*let Element: HTMLButtonElement = <HTMLButtonElement>this.children[0];
+        Element.classList.remove(`aph-btn-type-${this.btnType}-clicked`);
+        Element.disabled = false;*/
+        this.button.classList.remove(`aph-btn-type-${this.buttonType}-clicked`);
+        this.button.disabled = false;
+        this.showText();
+    };
+
+    showText() {
+        console.log(this.button);
+
+        if (this.hasLoader) {
+            this.loader?.classList.remove('aph-btn-loader-active');
+            //this.getElementsByClassName('aph-btn-loader')[0].classList.remove('aph-btn-loader-active');
+        };
+        if (this.buttonText != null) {
+            this.text?.classList.add('aph-btn-text-active');
+        };
+        //this.getElementsByClassName('aph-btn-text')[0].classList.add('aph-btn-text-active');
+    };
+
+    showLoader() {
+        /*if (this.hasLoader) {
+            this.getElementsByClassName('aph-btn-loader')[0].classList.add('aph-btn-loader-active');
+        };
+        this.getElementsByClassName('aph-btn-text')[0].classList.remove('aph-btn-text-active');*/
+
+        if (this.hasLoader) {
+            this.loader?.classList.add('aph-btn-loader-active');
+        };
+        if (this.buttonText != null) {
+            this.text?.classList.remove('aph-btn-text-active');
+        };
+    };
+
+    // Class update functions. 
+
+    /*updateSize() {
+
+    };
+
+    updateStyle(newStyle: string) {
+        this.children[0].classList.remove(`apheleia-button-style-${this.btnStyle}`);
+        this.children[0].classList.add(`apheleia-button-style-${newStyle}`);
+        //this.setStyle = NewStyle;
+    };
+
+    updateText(newText: string) {
+        this.getElementsByClassName('apheleia-button-text')[0].innerHTML = newText;
+    };*/
+
+    // Class get functions. 
+
+    get buttonText() {
+        //console.log(this.innerHTML);
+        /*switch (this.innerHTML) {
+            case '':
+                return null;
+            default:
+                return this.innerHTML;
+        };*/
+        return this.getAttribute('text') || null;
+    };
+
+    get buttonIcon() {
+        return this.getAttribute('icon') || null;
+    };
+
+    get buttonSize() {
+        switch (this.getAttribute('size')) {
+            case 'custom':
+                return 'custom';
+            case 'small':
+                return 'small';
+            case 'medium':
+                return 'medium';
+            case 'large':
+                return 'large';
+            case 'extralarge':
+                return 'extralarge';
+            default:
+                return 'medium';
+        };
+    };
+
+    get buttonType() {
+        switch (this.getAttribute('type')) {
+            case 'primary':
+                return 'primary';
+            case 'secondary':
+                return 'secondary';
+            case 'tertiary':
+                return 'tertiary';
+            case 'ghost':
+                return 'ghost';
+            case 'danger':
+                return 'danger';
+            default:
+                return 'primary';
+        };
+    };
+
+    get hasLoader() {
+        return this.hasAttribute('noloader') ? false : true;
+    };
+
+    get isDisabled() {
+        return this.hasAttribute('disabled') || false;
+    };
+
+    get autoDisable() {
+        return this.hasAttribute('nodisable') ? false : true;
+    };
+
+    get hasMargin() {
+        return this.hasAttribute('nomargin') ? false : true;
+    };
+
+    button: HTMLButtonElement;
+    loader?: HTMLDivElement;
+    text?: HTMLSpanElement;
+
+    constructor() {
+
+        //DEBUG PERFORMANCE
+        var Perf0 = performance.now();
+
+        super();
+
+        this.button = document.createElement('button');
+        this.button.className = 'aph-btn';
+
+        if (this.hasLoader) {
+
+            this.loader = document.createElement('div');
+            this.loader.className = 'aph-btn-loader';
+            this.loader.classList.add(`aph-btn-type-${this.buttonType}-loader`);
+
+            this.button.appendChild(this.loader);
+        };
+
+        if (this.buttonSize != 'custom') {
+
+            this.button.classList.add(`aph-btn-size-${this.buttonSize}`);
+        };
+
+        if (this.buttonText != null && this.buttonIcon != null) {
+
+            console.log(this.buttonIcon);
+        };
+
+        if (this.buttonText != null) {
+
+            this.text = document.createElement('span');
+            this.text.className = 'aph-btn-text';
+            this.text.innerHTML = this.buttonText;
+
+            this.button.appendChild(this.text);
+
+            if (this.hasMargin) {
+
+                this.text.style.width = `${80 + (8 * this.buttonText.length)}px`;
+            } else {
+
+                this.text.style.marginRight = '16px';
+            };
+        };
+
+        this.button.classList.add(`aph-btn-type-${this.buttonType}`);
+
+        if (this.isDisabled) {
+
+            this.button.disabled = true;
+        };
+
+        if (this.autoDisable) {
+
+            this.button.addEventListener('click', () => {
+
+                this.stateClicked();
+            });
+        } else if (this.hasLoader) {
+
+            this.button.addEventListener('click', () => {
+
+                this.showLoader();
+            });
+        };
+
+        this.appendChild(this.button);
+        this.showText();
+
+        /*this.attachShadow({mode: 'open'});
+        this.shadowRoot?.appendChild(btn);*/
+
+        /*console.log(this.btnText);
+        console.log(this.btnIcon);
+        console.log(this.btnSize);
+        console.log(this.btnType);*/
+
+        /*var Button: HTMLButtonElement = document!.createElement('button');
+        Button.className = 'apheleia-button';
+
+        Button.classList.add(`apheleia-button-style-${this.Style}`);
+
+        switch (this.Loader) {
+            case true:
+                var Loader = document.createElement('div');
+                Loader.className = 'apheleia-button-loader';
+
+                Loader.classList.add(`apheleia-button-style-${this.Style}-loader`);
+
+                Button.appendChild(Loader);
+                break;
+        };
+
+        switch (this.Disabled) {
+            case true:
+                Button.disabled = true;
+                break;
+        };
+
+        switch (this.Text) {
+            case null:
+                break;
+            default:
+                var Text = document.createElement('span');
+                Text.className = 'apheleia-button-text';
+                Text.innerHTML = this.Text;
+
+                Button.appendChild(Text);
+                Button.style.width = `${80 + (8 * this.Text.length)}px`;
+                break;
+        };
+
+        switch (this.Size) {
+            case 'custom':
+                break;
+            default:
+                Button.classList.add(`apheleia-button-size-${this.Size}`);
+                break;
+
+        };
+
+        Button.classList.add(`apheleia-button-style-${this.Style}`);
+
+        Button.addEventListener('click', () => {
+            this.clickedState();
+        });
+
+        this.appendChild(Button);
+        this.textOn();*/
+
+        // DEBUG PERFORMANCE
+        var Perf1 = performance.now();
+        console.log(`Class - ApheleiaButton - RenderTime - ${(Perf1 - Perf0).toFixed(5)} ms`);
+    };
+};
+
+window.customElements.define('aph-button', ApheleiaButton);
+
+/*
+.aph-btn-type-ghost-clicked {
+    &:disabled {
+        background-color: transparent;
+        color: $color-blue-50;
+        fill: $color-blue-50;
+        border-color: transparent;
+        cursor: default;
+    }
+}*/
+
+    /*.aph-btn-type-ghost-clicked {
+        &:disabled {
+            background-color: transparent;
+            color: $color-blue-50;
+            fill: $color-blue-50;
+            border-color: transparent;
+            cursor: default;
+        }
+    }*/
+
+    /*,
+    "svg": {
+        "chevron-left": "<svg x=\"0px\" y=\"0px\" viewBox=\"0 0 32 32\" xml:space=\"preserve\">\r\n<polygon points=\"10,16 20,6 21.4,7.4 12.8,16 21.4,24.6 20,26 \"/>\r\n<rect style=\"fill: none;\" width=\"32\" height=\"32\"/>\r\n</svg>\r\n",
+        "chevron-right": "<svg x=\"0px\" y=\"0px\" viewBox=\"0 0 32 32\" xml:space=\"preserve\">\r\n<polygon points=\"22,16 12,26 10.6,24.6 19.2,16 10.6,7.4 12,6 \"/>\r\n<rect style=\"fill: none;\" width=\"32\" height=\"32\"/>\r\n</svg>\r\n"
+    }*/
+
+     /*this.icon.style.width = this.iconSize;
+            this.icon.style.height = this.iconSize;*/
+
+            /*this.icon = <HTMLElement>this.firstChild;
+
+            console.log(this.icon);
+
+
+            this.icon.style.width = this.iconSize;
+            this.icon.style.height = this.iconSize;*/
+
+
+            //this.appendChild(supportedIcons[this.iconName]);
+
+            //this.icon = this.firstChild;
+
+            /*this.style.width = this.iconSize;
+            this.style.height = this.iconSize;
+
+            this.icon = document.createElement('img');
+
+            this.icon.src = supportedIcons[this.iconName];
+            this.icon.style.width = this.iconSize;
+            this.icon.style.height = this.iconSize;
+
+            this.append(this.icon);*/
+
+              /*
+            Generates html button element
+        */
+        this.button = document.createElement('button');
+        this.button.className = 'aph-btn';
+
+        /*
+            Sets the button type
+        */
+        this.button.classList.add(`aph-btn-type-${this.buttonType}`);
+
+        /*
+            Generates laoder element if the button has one
+        */
+        if (this.hasLoader) {
+
+            this.loader = document.createElement('div');
+            this.loader.className = 'aph-btn-loader';
+
+            this.button.appendChild(this.loader);
+        };
+
+        /*
+
+        */
+        if (this.buttonSize != 'custom') {
+
+            this.button.classList.add(`aph-btn-size-${this.buttonSize}`);
+        };
+
+        /*
+            Checks the button for text and or icons
+        */
+        /*
+            Text
+            Text LI
+            RI Text
+            RI Text LI
+            I
+        */
+        if (this.buttonLeftIcon != null) {
+
+            this.iconLeft = new ApheleiaIcon();
+            this.iconLeft.setIconName(this.buttonLeftIcon);
+            this.iconLeft.setIconSize('24px');
+            this.iconLeft.style.marginRight = '6px';
+            this.iconLeft.style.marginLeft = '8px';
+
+            this.button.appendChild(this.iconLeft);
+        };
+
+        /*
+
+        */
+        if (this.buttonText != null) {
+
+            this.text = document.createElement('span');
+            this.text.className = 'aph-btn-text';
+            this.text.innerHTML = this.buttonText;
+
+            this.button.appendChild(this.text);
+
+            if (this.isFullWidth) {
+
+                this.button.style.width = '100%';
+            };
+
+            if (this.hasMargin) {
+
+                //this.text.style.width = `${80 + (8 * this.buttonText.length)}px`;
+                this.text.style.marginLeft = '16px';
+                this.text.style.marginRight = '80px';
+            } else {
+
+                if (this.buttonLeftIcon != null && this.buttonRightIcon != null) {
+
+                    this.text.style.marginLeft = '0px';
+                    this.text.style.marginRight = '0px';
+                } else if (this.buttonLeftIcon != null && this.buttonRightIcon == null) {
+
+                    this.text.style.marginLeft = '0px';
+                    this.text.style.marginRight = '16px';
+                } else if (this.buttonLeftIcon == null && this.buttonRightIcon != null) {
+
+                    this.text.style.marginLeft = '16px';
+                    this.text.style.marginRight = '16px';
+                } else {
+
+                    this.text.style.marginLeft = '16px';
+                    this.text.style.marginRight = '16px';
+                };
+            };
+        };
+
+        /*
+
+        */
+        if (this.buttonText != null && this.buttonRightIcon != null) {
+
+            this.iconRight = new ApheleiaIcon();
+            this.iconRight.setIconName(this.buttonRightIcon);
+            this.iconRight.setIconSize('24px');
+            this.iconRight.style.marginRight = '8px';
+            this.iconRight.style.marginLeft = '6px';
+
+            this.button.appendChild(this.iconRight);
+        };
+
+
+
+        if (this.isDisabled) {
+
+            this.button.disabled = true;
+        };
+
+        if (this.autoDisable) {
+
+            this.button.addEventListener('click', () => {
+
+                this.stateClicked();
+            });
+        } else if (this.hasLoader) {
+
+            this.button.addEventListener('click', () => {
+
+                this.stateClicked();
+            });
+        };
+
+        this.appendChild(this.button);
+        this.showText();
+
+            // Class update functions. 
+
+    /*updateSize() {
+
+    };
+
+    updateStyle(newStyle: string) {
+        this.children[0].classList.remove(`apheleia-button-style-${this.btnStyle}`);
+        this.children[0].classList.add(`apheleia-button-style-${newStyle}`);
+        //this.setStyle = NewStyle;
+    };
+
+    updateText(newText: string) {
+        this.getElementsByClassName('apheleia-button-text')[0].innerHTML = newText;
+    };*/
+
+    // Class get functions. 
+    /*
+        get buttonText(): string | null {
+            return this.getAttribute('text') || null;
+        };
+    
+        get buttonIcon(): string | null {
+            return this.getAttribute('icon') || null;
+        };
+    
+        get buttonRightIcon(): string | null {
+            return this.getAttribute('righticon') || null;
+        };
+    
+        get buttonLeftIcon(): string | null {
+            return this.getAttribute('lefticon') || null;
+        };
+    
+        get buttonSize(): string {
+            switch (this.getAttribute('size')) {
+                case 'custom':
+                    return 'custom';
+                case 'small':
+                    return 'small';
+                case 'medium':
+                    return 'medium';
+                case 'large':
+                    return 'large';
+                case 'extralarge':
+                    return 'extralarge';
+                default:
+                    return 'medium';
+            };
+        };
+    
+        get buttonType(): string {
+            switch (this.getAttribute('type')) {
+                case 'primary':
+                    return 'primary';
+                case 'secondary':
+                    return 'secondary';
+                case 'tertiary':
+                    return 'tertiary';
+                case 'ghost':
+                    return 'ghost';
+                case 'danger':
+                    return 'danger';
+                case 'gray':
+                    return 'gray';
+                default:
+                    return 'primary';
+            };
+        };
+    
+        get hasLoader(): boolean {
+            return this.hasAttribute('noloader') ? false : true;
+        };
+    
+        get isDisabled(): boolean {
+            return this.hasAttribute('disabled');
+        };
+    
+        get autoDisable(): boolean {
+            return this.hasAttribute('nodisable') ? false : true;
+        };
+    
+        get hasMargin(): boolean {
+            return this.hasAttribute('nomargin') ? false : true;
+        };
+    
+        get isFullWidth(): boolean {
+            return this.hasAttribute('fullwidth');
+        };
+    */

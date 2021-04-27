@@ -1,0 +1,32 @@
+.aph-btn-type-dropdown-menu-item {
+    background-color: transparent;
+    color: $color-text-05;
+    fill: $color-icon-05;
+    border: 1px solid transparent;
+    transition: background-color 0.125s, box-shadow 0.125s;
+    box-shadow: transparent;
+
+    &:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+    }
+
+    &:active {
+        box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1);
+        border-color: rgba(0, 0, 0, 0.1);
+    }
+
+    &:disabled {
+        background-color: $color-ui-04;
+        color: $color-text-02;
+        fill: $color-icon-02;
+        box-shadow: none;
+        border-color: transparent;
+        cursor: default;
+    }
+
+    .aph-btn-loader {
+        border: 2px solid $color-white;
+        border-top-color: transparent;
+    }
+}
